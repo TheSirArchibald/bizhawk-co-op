@@ -31,12 +31,12 @@ local AbilityMap = {
 	0x00800000
 }
 
-local TankName = {
-	[0]="Energy Tank",
-	[1]="Missiles",
-	[2]="Super Missiles",
-	[3]="Power Bombs"
-}
+--local TankName = {
+--	[0]="Energy Tank",
+--	[1]="Missiles",
+--	[2]="Super Missiles",
+--	[3]="Power Bombs"
+--}
 
 local AreaName = {
 	[0]="Brinstar",
@@ -67,87 +67,87 @@ local AbilityName = {
 	"Power Grip",
 }
 
-local EventName = {
-	[0]="Dummy event",
-	"Easy mode",
-	"Hard mode",
-	"Enter Norfair demo played",
-	"Exit Kraid demo played",
-	"Enter Ridley demo played",
-	"Enter Mother Ship demo played",
-	"Enter Touriain demo played",
-	"Grabbed by Chozo in Brinstar (shows long beam)",
-	"Grabbed by Chozo in Brinstar (shows bombs)",
-	"Grabbed by Chozo in Brinstar (shows ice beam)",
-	"Grabbed by Chozo in Norfair (shows speed booster)",
-	"Grabbed by Chozo in Brinstar (shows hi-jump)",
-	"Grabbed by Chozo in Norfair (shows Varia suit)",
-	"Grabbed by Chozo in Brinstar (shows wave)",
-	"Grabbed by Chozo (shows screw attack) [unused]",
-	"Power grip obtained",
-	"Chozo pillar fully extended",
-	"Hi-jump obtained",
-	"Varia suit obtained",
-	"Charge beam obtained",
-	"Screw attack obtained",
-	"Space jump obtained",
-	"Gravity suit obtained",
-	"Plasma beam obtained",
-	"Charge beam boss encountered at first location or killed",
-	"Charge beam boss encountered at second location or killed",
-	"Charge beam boss killed at second location",
-	"Acid worm killed",
-	"Kraid eyedoor killed",
-	"Kraid killed",
-	"Kraid elevator statue destroyed",
-	"Caterpillar killed",
-	"Imago tunnel discovered",
-	"Cocoon killed",
-	"Imago killed",
-	"Ridley eyedoor killed",
-	"Ridley killed",
-	"Ridley elevator statue destroyed",
-	"Mother Brain Killed",
-	"Crocomire killed [unused]",
-	"Repel machine killed [unused]",
-	"Viewed statue room after long beam",
-	"Dessgeega killed after statue room",
-	"All three hives destroyed",
-	"Bugs killed after bombs",
-	"Ziplines activated",
-	"Plant destroyed (in lava)",
-	"Plant destroyed (post-Varia)",
-	"Plant destroyed (Varia 2)",
-	"Plant destroyed (Varia 3)",
-	"Plant destroyed (Varia 1)",
-	"Kraid baristutes dead",
-	"Kraid statue opened",
-	"Ridley statue opened",
-	"1st Metroid room cleared",
-	"3rd Metroid room cleared",
-	"5th Metroid room cleared",
-	"2nd Metroid room cleared",
-	"6th Metroid room cleared",
-	"4th Metroid room cleared",
-	"Zebetite 1 destroyed",
-	"Zebetite 2 destroyed",
-	"Zebetite 3 destroyed",
-	"Zebetite 4 destroyed",
-	"Escaped Zebes",
-	"Marker between Zebes and Mother Ship events",
-	"Fully powered suit obtained",
-	"Skipped Varia suit",
-	"[unknown] (previous implementation of Chozo block?)",
-	"Power bomb stolen",
-	"Space pirate with power bomb 1",
-	"Space pirate with power bomb 2",
-	"Glass tube broken",
-	"Mecha Ridley killed",
-	"Escaped Chozodia",
-	"[unknown]",
-	"[unknown]",
-	"[unused]",
-}
+--local EventName = {
+--	[0]="Dummy event",
+--	"Easy mode",
+--	"Hard mode",
+--	"Enter Norfair demo played",
+--	"Exit Kraid demo played",
+--	"Enter Ridley demo played",
+--	"Enter Mother Ship demo played",
+--	"Enter Touriain demo played",
+--	"Grabbed by Chozo in Brinstar (shows long beam)",
+--	"Grabbed by Chozo in Brinstar (shows bombs)",
+--	"Grabbed by Chozo in Brinstar (shows ice beam)",
+--	"Grabbed by Chozo in Norfair (shows speed booster)",
+--	"Grabbed by Chozo in Brinstar (shows hi-jump)",
+--	"Grabbed by Chozo in Norfair (shows Varia suit)",
+--	"Grabbed by Chozo in Brinstar (shows wave)",
+--	"Grabbed by Chozo (shows screw attack) [unused]",
+--	"Power grip obtained",
+--	"Chozo pillar fully extended",
+--	"Hi-jump obtained",
+--	"Varia suit obtained",
+--	"Charge beam obtained",
+--	"Screw attack obtained",
+--	"Space jump obtained",
+--	"Gravity suit obtained",
+--	"Plasma beam obtained",
+--	"Charge beam boss encountered at first location or killed",
+--	"Charge beam boss encountered at second location or killed",
+--	"Charge beam boss killed at second location",
+--	"Acid worm killed",
+--	"Kraid eyedoor killed",
+--	"Kraid killed",
+--	"Kraid elevator statue destroyed",
+--	"Caterpillar killed",
+--	"Imago tunnel discovered",
+--	"Cocoon killed",
+--	"Imago killed",
+--	"Ridley eyedoor killed",
+--	"Ridley killed",
+--	"Ridley elevator statue destroyed",
+--	"Mother Brain Killed",
+--	"Crocomire killed [unused]",
+--	"Repel machine killed [unused]",
+--	"Viewed statue room after long beam",
+--	"Dessgeega killed after statue room",
+--	"All three hives destroyed",
+--	"Bugs killed after bombs",
+--	"Ziplines activated",
+--	"Plant destroyed (in lava)",
+--	"Plant destroyed (post-Varia)",
+--	"Plant destroyed (Varia 2)",
+--	"Plant destroyed (Varia 3)",
+--	"Plant destroyed (Varia 1)",
+--	"Kraid baristutes dead",
+--	"Kraid statue opened",
+--	"Ridley statue opened",
+--	"1st Metroid room cleared",
+--	"3rd Metroid room cleared",
+--	"5th Metroid room cleared",
+--	"2nd Metroid room cleared",
+--	"6th Metroid room cleared",
+--	"4th Metroid room cleared",
+--	"Zebetite 1 destroyed",
+--	"Zebetite 2 destroyed",
+--	"Zebetite 3 destroyed",
+--	"Zebetite 4 destroyed",
+--	"Escaped Zebes",
+--	"Marker between Zebes and Mother Ship events",
+--	"Fully powered suit obtained",
+--	"Skipped Varia suit",
+--	"[unknown] (previous implementation of Chozo block?)",
+--	"Power bomb stolen",
+--	"Space pirate with power bomb 1",
+--	"Space pirate with power bomb 2",
+--	"Glass tube broken",
+--	"Mecha Ridley killed",
+--	"Escaped Chozodia",
+--	"[unknown]",
+--	"[unknown]",
+--	"[unused]",
+--}
 
 itemLocations = {
 	{ ID=00, Area=0, Room=0x00, RoomWidth=0x4F, X=0x0b, Y=0x1b, Width=1, Height=1 },
@@ -332,18 +332,18 @@ function getAbility()
 end
 
 -- Gets the list of all the event states
-function getEvents()
-	local events = {}
-	for i=0,11 do
-		local eventbyte = readRAM("EWRAM", 0x037E00 + i, 1)
-		for j=0,7 do
+--function getEvents()
+--	local events = {}
+--	for i=0,11 do
+--		local eventbyte = readRAM("EWRAM", 0x037E00 + i, 1)
+--		for j=0,7 do
 			-- set event number true if bit is set, otherwise false
-			events[j + i*8] = (bit.band(eventbyte, 0x01) > 0)
-			eventbyte = bit.rshift(eventbyte, 1)
-		end
-	end
-	return events
-end
+--			events[j + i*8] = (bit.band(eventbyte, 0x01) > 0)
+--			eventbyte = bit.rshift(eventbyte, 1)
+--		end
+--	end
+--	return events
+--end
 
 -- Gets the list of ammo values and capacities
 function getAmmo()
@@ -449,30 +449,30 @@ function eventAbilityCollected(prevRam, newRam)
 end
 
 -- Event to check if any game events have changed
-function eventTriggerEvent(prevRam, newRam)
-	local events = {}
-	local changed = false
+--function eventTriggerEvent(prevRam, newRam)
+--	local events = {}
+--	local changed = false
 
 	-- check if any changes
-	for i=0,95 do
-		if (prevRam.events[i] ~= newRam.events[i]) then
-			if newRam.events[i] then
-				events[i] = true
-			else
-				events[i] = false
-			end
-			changed = true
-		end
-	end
+--	for i=0,95 do
+--		if (prevRam.events[i] ~= newRam.events[i]) then
+--			if newRam.events[i] then
+--				events[i] = true
+--			else
+--				events[i] = false
+--			end
+--			changed = true
+--		end
+--	end
 
-	if changed then
+--	if changed then
 		-- return list of changes
-		return events
-	else 
+--		return events
+--	else 
 		-- no events changed
-		return false
-	end
-end
+--		return false
+--	end
+--end
 
 -- Event to check if any ammo changed
 -- Will not have any changes if a tank was collected
@@ -624,28 +624,28 @@ function removeAbilityFromRoom()
 end
 
 -- Set a game event state to new state
-function setEvent(prevEvent, newEvent)
+--function setEvent(prevEvent, newEvent)
 	-- for each even change...
-	for event,active in pairs(newEvent) do
-		local address = 0x037E00 + math.floor(event / 8)
-		local eventflag = bit.lshift(0x01, event % 8)
+--	for event,active in pairs(newEvent) do
+--		local address = 0x037E00 + math.floor(event / 8)
+--		local eventflag = bit.lshift(0x01, event % 8)
 
-		local eventbyte = readRAM("EWRAM", address, 1)
-		if active then
+--		local eventbyte = readRAM("EWRAM", address, 1)
+--		if active then
 			-- Set event to active
-			eventbyte = bit.bor(eventbyte, eventflag)
-		else
+--			eventbyte = bit.bor(eventbyte, eventflag)
+--		else
 			-- Set event to inactive
-			eventbyte = bit.band(eventbyte, bit.bnot(eventflag))
-		end
+--			eventbyte = bit.band(eventbyte, bit.bnot(eventflag))
+--		end
 
 		-- Update RAM
-		prevEvent[event] = active
-		writeRAM("EWRAM", address, 1, eventbyte)
-	end
+--		prevEvent[event] = active
+--		writeRAM("EWRAM", address, 1, eventbyte)
+--	end
 
-	return prevEvent
-end
+--	return prevEvent
+--end
 
 -- Set ammo counts to new updates
 function setAmmo(prevAmmo, deltaAmmo)
@@ -709,9 +709,9 @@ local prevRAM = {
 		powerCapacity = 0
 	},
 
-	tanks = {},
+	--tanks = {},
 	ability = {},
-	events = {}
+	--events = {}
 }
 
 
@@ -745,27 +745,27 @@ function mzm_ram.getMessage()
 
 	-- Gets the current RAM state
 	local newRAM = {
-		tanks = prevRAM.tanks,
+		--tanks = prevRAM.tanks,
 		ability = getAbility(),
-		events = getEvents(),
+		--events = getEvents(),
 		ammo = getAmmo()
 	}
 
 	local message = {}
 	local changed = false
-	local newTank
+	--local newTank
 
 	-- Gets the message for a new collected tank
 	-- Also updates the states to squelch some changes
-	newTank, prevRAM, newRAM = eventTankCollected(prevRAM, newRAM)
-	if newTank then
+	--newTank, prevRAM, newRAM = eventTankCollected(prevRAM, newRAM)
+	--if newTank then
 		-- Add new changes
-		message["t"] = newTank
-		changed = true
+	--	message["t"] = newTank
+	--	changed = true
 
-		gui.addmessage(config.user .. ": " .. TankName[newTank.tankType] .. " - " .. 
-			AreaName[newTank.areaID] .. " [" .. newTank.tankX .. "," .. newTank.tankY .. "]")
-	end
+--		gui.addmessage(config.user .. ": " .. TankName[newTank.tankType] .. " - " .. 
+	--		AreaName[newTank.areaID] .. " [" .. newTank.tankX .. "," .. newTank.tankY .. "]")
+	--end
 
 	-- Gets the message for a new collected ability
 	local newAbility = eventAbilityCollected(prevRAM, newRAM)
@@ -779,20 +779,20 @@ function mzm_ram.getMessage()
 	end
 
 	-- Gets the message for all changed game events
-	local newEvent = eventTriggerEvent(prevRAM, newRAM)
-	if newEvent then
+	--local newEvent = eventTriggerEvent(prevRAM, newRAM)
+	--if newEvent then
 		-- Add new changes
-		message["e"] = newEvent
-		changed = true
+	--	message["e"] = newEvent
+	--	changed = true
 
-		for event,active in pairs(newEvent) do
-			if (EventName[event] == nil) then
-				gui.addmessage(config.user .. ": Event #" .. event .. " - " .. (active and "On" or "Off"))
-			else
-				gui.addmessage(config.user .. ": Event " .. EventName[event] .. " - " .. (active and "On" or "Off"))
-			end
-		end
-	end
+	--	for event,active in pairs(newEvent) do
+	--		if (EventName[event] == nil) then
+	--			gui.addmessage(config.user .. ": Event #" .. event .. " - " .. (active and "On" or "Off"))
+	--		else
+	--			gui.addmessage(config.user .. ": Event " .. EventName[event] .. " - " .. (active and "On" or "Off"))
+	--		end
+	--	end
+	--end
 
 	-- Gets the message for all updated ammo count/capacity
 	local newAmmo = eventAmmoChange(prevRAM, newRAM)
@@ -818,12 +818,14 @@ end
 function mzm_ram.processMessage(their_user, message)
 	-- Process new tank collected
 	-- Does nothing if tank was already collected
-	if message["t"] then
-		prevRAM = setTankCollected(prevRAM, message["t"])
+	--if message["t"] then
+	--	prevRAM = setTankCollected(prevRAM, message["t"])
 
-		gui.addmessage(their_user .. ": " .. TankName[message["t"].tankType] .. " - " .. 
-			AreaName[message["t"].areaID] .. " [" .. message["t"].tankX .. "," .. message["t"].tankY .. "]")
-	end
+	--	gui.addmessage(their_user .. ": " 
+		--.. TankName[message["t"].tankType] 
+	--	.. " - " .. 
+	--		AreaName[message["t"].areaID] .. " [" .. message["t"].tankX .. "," .. message["t"].tankY .. "]")
+	--end
 
 	-- Process new ability collected
 	if message["a"] then
@@ -834,17 +836,17 @@ function mzm_ram.processMessage(their_user, message)
 	end
 
 	-- process all changed game events
-	if message["e"] then
-		prevRAM.events = setEvent(prevRAM.events, message["e"])
+	--if message["e"] then
+	--	prevRAM.events = setEvent(prevRAM.events, message["e"])
 
-		for event,active in pairs(message["e"]) do
-			if (EventName[event] == nil) then
-				gui.addmessage(their_user .. ": Event #" .. event .. " - " .. (active and "On" or "Off"))
-			else
-				gui.addmessage(their_user .. ": Event " .. EventName[event] .. " - " .. (active and "On" or "Off"))
-			end
-		end
-	end
+	--	for event,active in pairs(message["e"]) do
+	--		if (EventName[event] == nil) then
+	--			gui.addmessage(their_user .. ": Event #" .. event .. " - " .. (active and "On" or "Off"))
+	--		else
+	--			gui.addmessage(their_user .. ": Event " .. EventName[event] .. " - " .. (active and "On" or "Off"))
+	--		end
+	--	end
+	--end
 
 	-- process all ammo updates
 	if message["m"] then
